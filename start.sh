@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./bin/massscan --exclude 255.255.255.255 -p25565 0.0.0.0/0 --source-port 61000 --banners -oD log.ndjson
+./bin/masscan --exclude 255.255.255.255 -p25565 0.0.0.0/0 --source-port 61000 --banners -oD log.ndjson
